@@ -1,0 +1,47 @@
+[
+  { "question": "Mikä on Suomen pääkaupunki?", "answer": "Helsinki" },
+  { "question": "Kuinka monta päivää on karkausvuodessa?", "answer": "366" },
+  {
+    "question": "Mikä planeetta on lähimpänä Aurinkoa?",
+    "answer": "Merkurius"
+  },
+  { "question": "Mikä on veden kemiallinen kaava?", "answer": "H2O" },
+  { "question": "Mikä eläin sanoo 'miau'?", "answer": "Kissa" },
+  { "question": "Kuinka monta maanosaa on?", "answer": "Seitsemän" },
+  { "question": "Mikä on Suomen kansalliskukka?", "answer": "Kielo" },
+  { "question": "Mikä on 5 x 5?", "answer": "25" },
+  { "question": "Mikä meri ympäröi Suomea?", "answer": "Itämeri" },
+  { "question": "Mikä on ihmisen suurin elin?", "answer": "Iho" },
+  { "question": "Mikä eläin on Suomen kansalliseläin?", "answer": "Karhu" },
+  { "question": "Kuinka monta kirjainta on aakkosissa?", "answer": "29" },
+  { "question": "Mikä on jäätyneen veden nimi?", "answer": "Jää" },
+  { "question": "Mikä on maailman korkein vuori?", "answer": "Mount Everest" },
+  {
+    "question": "Mikä väri syntyy sinisestä ja keltaisesta?",
+    "answer": "Vihreä"
+  },
+  { "question": "Mikä on vuorokauden pimeä osa?", "answer": "Yö" },
+  { "question": "Mikä on 10 / 2?", "answer": "5" },
+  { "question": "Mikä eläin haukkuu?", "answer": "Koira" },
+  { "question": "Mikä on joulukuun juhla?", "answer": "Joulu" },
+  {
+    "question": "Mikä on maapallon luonnollinen satelliitti?",
+    "answer": "Kuu"
+  },
+  { "question": "Mikä väline näyttää ajan?", "answer": "Kello" },
+  {
+    "question": "Mikä on kesän lämpimin kuukausi Suomessa?",
+    "answer": "Heinäkuu"
+  },
+  { "question": "Mikä eläin munii munia?", "answer": "Kana" },
+  { "question": "Kuinka monta tuntia on vuorokaudessa?", "answer": "24" },
+  { "question": "Mikä on lumen väri?", "answer": "Valkoinen" },
+  { "question": "Mikä on Suomen rahayksikkö?", "answer": "Euro" },
+  { "question": "Mikä on vastakohta sanalle kuuma?", "answer": "Kylmä" },
+  { "question": "Mikä on auringonlaskun aika päivästä?", "answer": "Ilta" },
+  { "question": "Mikä on ihmisen kotiplaneetta?", "answer": "Maa" },
+  {
+    "question": "Mikä marja on sininen ja kasvaa metsässä?",
+    "answer": "Mustikka"
+  }
+]
