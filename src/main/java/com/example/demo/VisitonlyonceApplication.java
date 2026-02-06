@@ -8,11 +8,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.hibernate.autoconfigure.HibernateJpaAutoConfiguration;
 import org.springframework.boot.jdbc.autoconfigure.DataSourceAutoConfiguration;
 
-import com.example.demo.util.TriviaLoader;
-import com.example.demo.entity.TriviaQuestion;
-
-// @SpringBootApplication
-@SpringBootApplication(exclude = { DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class })
+// @SpringBootApplication(exclude = { DataSourceAutoConfiguration.class,
+// HibernateJpaAutoConfiguration.class })
+@SpringBootApplication
 public class VisitonlyonceApplication {
 
 	public static void main(String[] args) {

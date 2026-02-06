@@ -12,6 +12,8 @@ public class TriviaService {
 
     public List<TriviaQuestion> shuffleAndLimit(List<TriviaQuestion> questions, int limit) {
         List<TriviaQuestion> shuffled = TriviaLoader.shuffle(questions);
+        // jos pyydetty määrä on suurempi kuin saatavilla olevien kysymysten määrä,
+        // rajoitetaan se saatavilla olevien määrään
         if (limit > shuffled.size()) {
             limit = shuffled.size();
         }
