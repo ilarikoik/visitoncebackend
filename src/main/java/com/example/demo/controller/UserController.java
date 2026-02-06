@@ -7,6 +7,7 @@ import com.example.demo.repository.UserRepository;
 import com.example.demo.service.UserService;
 
 import java.util.Map;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -41,12 +42,13 @@ public class UserController {
                     "message", "User not found, saved new visitor",
                     "user", user));
         }
+        // return ResponseEntity.ok(checkUser);
     }
 
     @PostMapping("/reset")
     public ResponseEntity<?> resetUser(@RequestBody User user) {
         userService.deleteByIp(user);
-        return ResponseEntity.ok(Map.of("status", "reset", "user", user));
+        return ResponseEntity.ok(Map.of("message", "User reset", "ip", user.getIpAddress()));
     }
 
 }
