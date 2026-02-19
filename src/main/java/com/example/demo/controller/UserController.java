@@ -3,21 +3,20 @@ package com.example.demo.controller;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.entity.User;
-import com.example.demo.repository.UserRepository;
 import com.example.demo.service.UserService;
 
 import jakarta.servlet.http.HttpServletRequest;
 
+import java.time.LocalDateTime;
 import java.util.Map;
-import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:3000")
@@ -41,6 +40,9 @@ public class UserController {
             // Käyttäjää ei löytynyt → luo uusi obekti ja tallennetaan ja palautetaan viesti
             User user = new User();
             user.setIpAddress(ip);
+            LocalDateTime now = LocalDateTime.now();
+            // ZonedDateTime now = ZonedDateTime.now();
+            user.setVisitTime(now);
             userService.save(user);
             return ResponseEntity.ok(Map.of(
                     "status", "new_visitor",
@@ -48,6 +50,20 @@ public class UserController {
                     "user", user));
         }
         // return ResponseEntity.ok(checkUser);
+    }
+
+    @PutMapping("/user")
+    public ResponseEntity<?> userChanges(HttpServletRequest request) {
+        String ip = request.getRemoteAddr();
+        User user = userService.findByIp(ip);
+
+        if (user == null) {
+            return ResponseEntity.ok(user);
+        } else {
+            user.setRickRolled(true);
+            userService.save(user);
+            return ResponseEntity.ok(user);
+        }
     }
 
     @PostMapping("/reset")

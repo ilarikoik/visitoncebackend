@@ -19,10 +19,7 @@ public class User {
 
     String ipAddress;
     LocalDateTime visitTime;
-    // times visited -- voi sitten käyttää esim visited < 3 voi käydä uudelleen mut
-    // sit ei enään voi
-    // visited == 2 -- pitää esim kirjottaa joku viesti että pääsee uudelleen
-    // visited > == 20 -- tilastot nollaatuu
+    Boolean rickRolled = false;
 
     public Long getId() {
         return id;
@@ -51,5 +48,13 @@ public class User {
     @Override
     public String toString() {
         return "User [id=" + id + ", ipAddress=" + ipAddress + ", visitTime=" + visitTime + "]";
+    }
+
+    public Boolean getRickRolled() {
+        return rickRolled;
+    }
+
+    public void setRickRolled(Boolean rickRolled) {
+        this.rickRolled = rickRolled;
     }
 }

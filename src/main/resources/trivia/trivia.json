@@ -1,47 +1,44 @@
 [
-  { "question": "Mikä on Suomen pääkaupunki?", "answer": "Helsinki" },
-  { "question": "Kuinka monta päivää on karkausvuodessa?", "answer": "366" },
+  { "question": "What is the capital of France?", "answer": "Paris" },
+  { "question": "How many days are in a week?", "answer": "7" },
+  { "question": "What color is the sky?", "answer": "Blue" },
+  { "question": "What is 2 + 2?", "answer": "4" },
+  { "question": "What animal says 'moo'?", "answer": "Cow" },
+  { "question": "How many months are in a year?", "answer": "12" },
+  { "question": "What is the chemical formula for water?", "answer": "H2O" },
+  { "question": "What is 10 x 10?", "answer": "100" },
+  { "question": "What planet do we live on?", "answer": "Earth" },
+  { "question": "What is the largest ocean?", "answer": "Pacific" },
+  { "question": "How many sides does a triangle have?", "answer": "3" },
+  { "question": "What color is grass?", "answer": "Green" },
+  { "question": "What animal is known as man's best friend?", "answer": "Dog" },
+  { "question": "How many hours are in a day?", "answer": "24" },
+  { "question": "What is the opposite of hot?", "answer": "Cold" },
   {
-    "question": "Mikä planeetta on lähimpänä Aurinkoa?",
-    "answer": "Merkurius"
+    "question": "What is the tallest mountain in the world?",
+    "answer": "Mount Everest"
   },
-  { "question": "Mikä on veden kemiallinen kaava?", "answer": "H2O" },
-  { "question": "Mikä eläin sanoo 'miau'?", "answer": "Kissa" },
-  { "question": "Kuinka monta maanosaa on?", "answer": "Seitsemän" },
-  { "question": "Mikä on Suomen kansalliskukka?", "answer": "Kielo" },
-  { "question": "Mikä on 5 x 5?", "answer": "25" },
-  { "question": "Mikä meri ympäröi Suomea?", "answer": "Itämeri" },
-  { "question": "Mikä on ihmisen suurin elin?", "answer": "Iho" },
-  { "question": "Mikä eläin on Suomen kansalliseläin?", "answer": "Karhu" },
-  { "question": "Kuinka monta kirjainta on aakkosissa?", "answer": "29" },
-  { "question": "Mikä on jäätyneen veden nimi?", "answer": "Jää" },
-  { "question": "Mikä on maailman korkein vuori?", "answer": "Mount Everest" },
+  { "question": "What do bees make?", "answer": "Honey" },
+  { "question": "How many continents are there?", "answer": "7" },
+  { "question": "What is the color of snow?", "answer": "White" },
+  { "question": "What is 5 x 5?", "answer": "25" },
+  { "question": "What is the Earth's natural satellite?", "answer": "Moon" },
+  { "question": "What animal has a trunk?", "answer": "Elephant" },
   {
-    "question": "Mikä väri syntyy sinisestä ja keltaisesta?",
-    "answer": "Vihreä"
+    "question": "What color do you get when you mix red and blue?",
+    "answer": "Purple"
   },
-  { "question": "Mikä on vuorokauden pimeä osa?", "answer": "Yö" },
-  { "question": "Mikä on 10 / 2?", "answer": "5" },
-  { "question": "Mikä eläin haukkuu?", "answer": "Koira" },
-  { "question": "Mikä on joulukuun juhla?", "answer": "Joulu" },
+  { "question": "How many legs does a spider have?", "answer": "8" },
+  { "question": "What is the fastest land animal?", "answer": "Cheetah" },
+  { "question": "What season comes after winter?", "answer": "Spring" },
   {
-    "question": "Mikä on maapallon luonnollinen satelliitti?",
-    "answer": "Kuu"
+    "question": "What is the currency of the United States?",
+    "answer": "Dollar"
   },
-  { "question": "Mikä väline näyttää ajan?", "answer": "Kello" },
   {
-    "question": "Mikä on kesän lämpimin kuukausi Suomessa?",
-    "answer": "Heinäkuu"
+    "question": "What is the smallest planet in our solar system?",
+    "answer": "Mercury"
   },
-  { "question": "Mikä eläin munii munia?", "answer": "Kana" },
-  { "question": "Kuinka monta tuntia on vuorokaudessa?", "answer": "24" },
-  { "question": "Mikä on lumen väri?", "answer": "Valkoinen" },
-  { "question": "Mikä on Suomen rahayksikkö?", "answer": "Euro" },
-  { "question": "Mikä on vastakohta sanalle kuuma?", "answer": "Kylmä" },
-  { "question": "Mikä on auringonlaskun aika päivästä?", "answer": "Ilta" },
-  { "question": "Mikä on ihmisen kotiplaneetta?", "answer": "Maa" },
-  {
-    "question": "Mikä marja on sininen ja kasvaa metsässä?",
-    "answer": "Mustikka"
-  }
+  { "question": "How many eggs are in a dozen?", "answer": "12" },
+  { "question": "What fruit is yellow and monkeys love?", "answer": "Banana" }
 ]
