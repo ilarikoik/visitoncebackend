@@ -6,6 +6,8 @@ import com.example.demo.entity.User;
 import com.example.demo.repository.UserRepository;
 import com.example.demo.service.UserService;
 
+import jakarta.servlet.http.HttpServletRequest;
+
 import java.util.Map;
 import java.util.Optional;
 
@@ -26,8 +28,9 @@ public class UserController {
     private UserService userService;
 
     @PostMapping("/user")
-    public ResponseEntity<?> getUser(@RequestBody User user) {
-        User checkUser = userService.findByIp(user.getIpAddress());
+    public ResponseEntity<?> getUser(HttpServletRequest request) {
+        String ip = request.getRemoteAddr();
+        User checkUser = userService.findByIp(ip);
 
         if (checkUser != null) {
             // Käyttäjä löytyi → palautetaan user-objekti
@@ -35,7 +38,9 @@ public class UserController {
                     "status", "already_visited",
                     "user", checkUser));
         } else {
-            // Käyttäjää ei löytynyt → tallennetaan ja palautetaan viesti
+            // Käyttäjää ei löytynyt → luo uusi obekti ja tallennetaan ja palautetaan viesti
+            User user = new User();
+            user.setIpAddress(ip);
             userService.save(user);
             return ResponseEntity.ok(Map.of(
                     "status", "new_visitor",
