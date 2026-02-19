@@ -116,10 +116,10 @@
 		</plugins>
 	</build>
 
-	<entityScan>
+	<!-- <entityScan>
 		<basePackages>com.example.demo.entity</basePackages>
-	</entityScan>
-	<enableJpaRepositories>
+	</entityScan> -->
+	<!-- <enableJpaRepositories>
 		<basePackages>com.example.demo.repository</basePackages>
-	</enableJpaRepositories>
+	</enableJpaRepositories> -->
 </project>
